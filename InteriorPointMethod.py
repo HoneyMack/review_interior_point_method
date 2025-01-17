@@ -3,6 +3,8 @@ import math
 
 import scipy.optimize
 
+# NOTE: ここで実装されている内点法は，Mehrotra predictor–corrector method？
+
 
 # REVIEW: この処理はわざわざクラスにする必要がないと思う．MainMethodクラスのメソッドとして実装してもよい
 class FirstMethod:  # REVIEW: FirstMethodは何を表すのかわからないので，役割・処理を表す名称に変更する ex. FeasibleSolutionCalculator/ FeasibleSolutionGenerator
